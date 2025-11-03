@@ -137,3 +137,7 @@ The Personal Task Manager now includes seamless iCloud synchronization, allowing
 **Enjoy seamless task management across all your devices!** 🎉
 
 *Your tasks are now with you everywhere you go.*
+
+###  Commit Emoji :
+1. https://gist.github.com/parmentf/035de27d6ed1dce0b36a
+2. https://gitmoji.dev/

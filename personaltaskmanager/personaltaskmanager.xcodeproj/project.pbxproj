@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		16FAFE0C2EB8C05C00958EB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 16FAFE0B2EB8C05C00958EB2 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		16BBCFDE2EB7A633004D0B26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		16BBCFCE2EB7A631004D0B26 /* personaltaskmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personaltaskmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BBCFDD2EB7A633004D0B26 /* personaltaskmanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personaltaskmanagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BBCFE72EB7A633004D0B26 /* personaltaskmanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personaltaskmanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FAFE0B2EB8C05C00958EB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		16BBCFC52EB7A631004D0B26 = {
 			isa = PBXGroup;
 			children = (
+				16FAFE0B2EB8C05C00958EB2 /* README.md */,
 				16BBCFD02EB7A631004D0B26 /* personaltaskmanager */,
 				16BBCFE02EB7A633004D0B26 /* personaltaskmanagerTests */,
 				16BBCFEA2EB7A633004D0B26 /* personaltaskmanagerUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FAFE0C2EB8C05C00958EB2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

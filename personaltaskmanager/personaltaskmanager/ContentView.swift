@@ -99,22 +99,7 @@ struct ContentView: View {
                     .padding(.horizontal)
                 }
                 
-                // Search Bar
-                HStack {
-                    Image(systemName: "magnifyingglass")
-                        .foregroundColor(.secondary)
-                    
-                    TextField("Search tasks...", text: $searchText)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                    
-                    if !searchText.isEmpty {
-                        Button("Clear") {
-                            searchText = ""
-                        }
-                        .foregroundColor(.blue)
-                    }
-                }
-                .padding(.horizontal)
+             
                 
                 // Sort and Filter Controls
                 HStack {
