@@ -45,6 +45,9 @@ This 12-week course provides a comprehensive journey from traditional UIKit deve
 - iPhone or iPad for testing (simulator available)
 
 ---
+### 🔗 The Swift Programming Language : [link](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/aboutswift)
+### 🔗 SwiftUI : [link](https://developer.apple.com/documentation/swiftui)
+
 
 *Note: This course outline is designed to provide hands-on experience with both traditional and modern iOS development approaches, ensuring graduates are prepared for current industry needs.*
 # Git command(example)
