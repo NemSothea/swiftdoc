@@ -144,19 +144,9 @@ class TodoListViewController: UIViewController {
             self.updateSections()
         }
         
-        let showActiveAction = UIAlertAction(title: "Active Only", style: .default) { _ in
-            // Filter logic would go here
-        }
-        
-        let showCompletedAction = UIAlertAction(title: "Completed Only", style: .default) { _ in
-            // Filter logic would go here
-        }
-        
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         
         alert.addAction(showAllAction)
-        alert.addAction(showActiveAction)
-        alert.addAction(showCompletedAction)
         alert.addAction(cancelAction)
         
         present(alert, animated: true)
