@@ -261,16 +261,13 @@ struct StatusView: View {
 # **Slide 11: Looking Ahead**
 ## Next Session Preview
 
-**Hour 4:** @ObservedObject & @Published  
-→ Managing model data across views
+Hour 1: List and ForEach. Incredibly simple compared to UITableView DataSource.
 
-**Hour 5:** @EnvironmentObject  
-→ Global state management
+Hour 2: NavigationStack and NavigationLink.
 
-**Hour 6:** Complete Data-Driven App  
-→ Putting it all together!
+Hour 3: Final Project Kick-off: Students choose to build their final project in either UIKit or SwiftUI, or a mix.
 
-**Pro Tip:** Practice with different UI components (Slider, TextField, Stepper) using @Binding!
+
 
 ---
 
