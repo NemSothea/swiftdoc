@@ -183,9 +183,3 @@ struct MixedAppView: View {
 - **Incremental migration** - Update screens gradually
 - **Best of both worlds** - Use each where they excel
 - **Team flexibility** - Mix expertise levels
-
-**Next Steps:** Choose your project direction based on:
-1. Learning goals
-2. App complexity requirements
-3. Team expertise
-4. Timeline constraints
