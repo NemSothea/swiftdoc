@@ -8,8 +8,8 @@ import SwiftUI
 
 struct ParentView: View {
     
-    @State private var parentToggle = false  // 👑 Owner
-    @State private var intIndex = 1
+    @State private var parentToggle:Bool = false  // 👑 Owner
+    @State private var intIndex: Int = 1
     
     var body: some View {
         
