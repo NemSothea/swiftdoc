@@ -54,10 +54,19 @@ struct TaskListView: View {
                     TextField("New task...", text: $newTaskTitle)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                    Button("Add") {
+                    Button {
                         guard !newTaskTitle.isEmpty else { return }
                         taskManager.addTask(newTaskTitle)
                         newTaskTitle = ""
+                    } label: {
+                        HStack {
+                            // Default
+                            Image(systemName: "plus.circle.fill")
+                            // Customzie image
+//                               Image("add")
+                                
+                               Text("Add")
+                           }
                     }
                 }
                 .padding()
